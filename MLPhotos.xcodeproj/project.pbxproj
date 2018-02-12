@@ -12,6 +12,7 @@
 		8265198A20312DBE00876DF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8265198820312DBE00876DF7 /* Main.storyboard */; };
 		8265198C20312DBE00876DF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8265198B20312DBE00876DF7 /* Assets.xcassets */; };
 		8265198F20312DBE00876DF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8265198D20312DBE00876DF7 /* LaunchScreen.storyboard */; };
+		826519972031315200876DF7 /* GoogLeNetPlaces.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 82651996203130B600876DF7 /* GoogLeNetPlaces.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		8265198B20312DBE00876DF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8265198E20312DBE00876DF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8265199020312DBE00876DF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82651996203130B600876DF7 /* GoogLeNetPlaces.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = GoogLeNetPlaces.mlmodel; path = ../../../../Downloads/GoogLeNetPlaces.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		8265198320312DBE00876DF7 /* MLPhotos */ = {
 			isa = PBXGroup;
 			children = (
+				82651996203130B600876DF7 /* GoogLeNetPlaces.mlmodel */,
 				8265198420312DBE00876DF7 /* AppDelegate.swift */,
 				8265198620312DBE00876DF7 /* ViewController.swift */,
 				8265198820312DBE00876DF7 /* Main.storyboard */,
@@ -138,6 +141,7 @@
 			files = (
 				8265198720312DBE00876DF7 /* ViewController.swift in Sources */,
 				8265198520312DBE00876DF7 /* AppDelegate.swift in Sources */,
+				826519972031315200876DF7 /* GoogLeNetPlaces.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

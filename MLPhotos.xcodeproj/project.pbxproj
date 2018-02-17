@@ -19,6 +19,7 @@
 		8265199F2038C5BA00876DF7 /* puppy2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8265199E2038C5BA00876DF7 /* puppy2.jpg */; };
 		826519A12038CBA100876DF7 /* puppy3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 826519A02038CBA100876DF7 /* puppy3.jpg */; };
 		826519A32038CBAA00876DF7 /* puppy4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 826519A22038CBAA00876DF7 /* puppy4.jpg */; };
+		826519A52038D1F200876DF7 /* UIImage+MLPhotos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826519A42038D1F200876DF7 /* UIImage+MLPhotos.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		8265199E2038C5BA00876DF7 /* puppy2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = puppy2.jpg; sourceTree = "<group>"; };
 		826519A02038CBA100876DF7 /* puppy3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = puppy3.jpg; sourceTree = "<group>"; };
 		826519A22038CBAA00876DF7 /* puppy4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = puppy4.jpg; sourceTree = "<group>"; };
+		826519A42038D1F200876DF7 /* UIImage+MLPhotos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+MLPhotos.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 				82651996203130B600876DF7 /* GoogLeNetPlaces.mlmodel */,
 				8265198420312DBE00876DF7 /* AppDelegate.swift */,
 				8265198620312DBE00876DF7 /* ViewController.swift */,
+				826519A42038D1F200876DF7 /* UIImage+MLPhotos.swift */,
 				8265198820312DBE00876DF7 /* Main.storyboard */,
 				8265198B20312DBE00876DF7 /* Assets.xcassets */,
 				8265198D20312DBE00876DF7 /* LaunchScreen.storyboard */,
@@ -166,6 +169,7 @@
 				8265198520312DBE00876DF7 /* AppDelegate.swift in Sources */,
 				8265199B2038BB2900876DF7 /* Resnet50.mlmodel in Sources */,
 				826519972031315200876DF7 /* GoogLeNetPlaces.mlmodel in Sources */,
+				826519A52038D1F200876DF7 /* UIImage+MLPhotos.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -32,7 +32,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Confidence level: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4VM-Nx-u6d">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4VM-Nx-u6d">
                                 <rect key="frame" x="49" y="242" width="137" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -60,7 +60,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Confidence level:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E6z-fE-Smn">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E6z-fE-Smn">
                                 <rect key="frame" x="49" y="550" width="132" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -79,10 +79,12 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="betterConfidenceLabel" destination="EDU-iM-emV" id="LYW-8D-DdI"/>
-                        <outlet property="betterResultsLabel" destination="E7A-Fn-tXd" id="KaH-RM-5Ik"/>
-                        <outlet property="goodConfidenceLabel" destination="lkl-Io-uX7" id="MjC-Bw-aW2"/>
+                        <outlet property="betterResultLabel" destination="E7A-Fn-tXd" id="h8N-xB-oS2"/>
+                        <outlet property="betterSubtitleLabel" destination="E6z-fE-Smn" id="yUU-cY-imW"/>
+                        <outlet property="betterSubtitleOutputLabel" destination="EDU-iM-emV" id="urF-em-Vgr"/>
                         <outlet property="goodResultLabel" destination="ZYb-xT-fuZ" id="2G9-as-wwD"/>
+                        <outlet property="goodSubtitleLabel" destination="4VM-Nx-u6d" id="bNE-QI-TNx"/>
+                        <outlet property="goodSubtitleOutputLabel" destination="lkl-Io-uX7" id="ilt-IQ-MN6"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
